@@ -9,7 +9,7 @@
 \usepackage{hyperref}
 \@namedef{opt@inputenc.sty}{utf8}
 \makeatother
-\usepackage{url}
+\usepackage{url}    
 \usepackage{CJKutf8}
 \usepackage{multirow}
 \usepackage{array}
@@ -81,6 +81,7 @@ The the concept drift occurs between two times t and u when the distribution or 
 \begin{equation}
     P_t(X) \neq P_u(X)
 \end{equation}
+As in real life systems it is highly likely that there will be a change in the concept of the time-series hence happening of concept drift is very likely and possible. For example, there will be a concept drift in the time-series output of a heat sensor measuring the temperature of a motor of exhaust fan and the motor of the fan is changed. Thus it is necessary for our system to first recognize the concept drift. If it is a concept drift then the model should adapt itself accordingly otherwise there should be a mechanism 
 \begin{enumerate}
 	\item Stationary and non-stationary time series
 	\item lack of labelled data
